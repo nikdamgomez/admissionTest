@@ -73,4 +73,6 @@ public class MedicationUseCaseImpl implements IMedicationUseCase {
         //retunring list using a jpa query
         return medicationRepository.findByCategoryandAfterExpiracionDate(category, expiration_date);
     }
+
+
 }
